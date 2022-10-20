@@ -7,7 +7,11 @@ html{
   height: 100%;
   scroll-behavior: smooth;
 }
-
+*:focus
+{
+  outline: 2px dashed #7296EC;
+  outline-offset: 3px;
+}
 body{
   display: flex;
   flex-direction: column;
@@ -103,6 +107,21 @@ a{
 .currency-rates-type {
   color:#2959CE;
 }
+
+/* global-search-form */
+.global-search-form
+{
+  margin-right: 25px;
+}
+.global-search-form-input
+{
+  padding: 15px 20px 13px 40px;
+  font-size: 14px;
+ line-height: normal;
+ border-radius:60px;
+ border:none;
+}
+
 /* lang toggle */
 .lang-toggle {
   display: flex;
